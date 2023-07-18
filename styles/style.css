@@ -1,0 +1,118 @@
+/* nav section start */
+nav{
+    background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.nav-title{
+    padding-left: 100px;
+    display: flex;
+    margin-bottom: 50px;
+}
+.items{
+    margin: 20px;
+    display: flex;
+}
+.item{
+    margin: 20px;
+    list-style: none;
+    padding-right: 30px;
+}
+.item a{
+    text-decoration: none;
+    color: black;
+}
+.nav-pic{
+    margin-top: 25px;
+    width: 50px;
+    height: 50px;
+}
+.nav-text{
+    font-size: 40px;
+}
+/* nav section end */
+/* banner section start */
+.banner-container{
+    display: flex;
+    gap: 250px;
+}
+.pic1{
+    padding-left: 200px;
+    width: 500px;
+}
+
+
+.banner-text{
+    margin-top: 50px;
+    margin-left: 70px;
+    background-image: url("images/Group 14.png");
+
+}
+/* banner section end */
+
+/* main section start */
+.card-container{
+    margin-top: 30px;
+    display: flex;
+}
+.img{
+    padding-left: 80px;
+}
+
+
+.pic{
+    width: 200px;
+}
+.main-text{
+    text-align: center;
+}
+.main-play{
+    display: flex;
+}
+.cards{
+    margin-top: 80px;
+    padding-left: 90px;
+    display: flex;
+    gap: 50px ;
+    flex-wrap: wrap;
+}
+.card{
+    border-radius: 50px;
+background: #FFF;
+    display: flex;
+}
+.card:hover{
+    border: 2px solid blue;
+    border-radius: 20px;
+}
+
+
+/* main section end */
+
+.footer-text{
+    margin-top: 90px;
+    display: flex;
+    padding-top: 100px;
+    padding-left: 250px;
+    gap: 60px;
+    
+
+}
+footer{
+    background: #0B0223;
+    height: 400px;
+    gap: 60px;
+    color: white;
+}
+.ft{
+    color: gray;
+    margin-top: 90px;
+    display: flex;
+    padding-top: 100px;
+    padding-left: 250px;
+    gap: 60px;
+}
