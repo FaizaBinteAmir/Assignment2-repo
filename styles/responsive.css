@@ -1,0 +1,45 @@
+@media screen and (max-width:576px) {
+    nav{
+        flex-direction: column;
+        height: 400px;
+    }
+    .items{
+        flex-direction: column;
+
+    }
+    .item{
+        padding-right: 30px;
+    }
+    .banner-container{
+        flex-direction: column;
+    }
+.pic1{
+    padding-left: 0px;
+}
+.main-text{
+    text-align: center;
+}
+.card-container{
+    flex-direction: column;
+}
+.text{
+    flex-direction: column;
+}
+.cartoon{
+    flex-direction: column;
+}
+.card-container{
+    grid-template-columns: repeat(3,1fr);
+}
+
+
+footer{
+    width: 600px;
+}
+.footer-text{
+    grid-template-columns: repeat(3,1fr);
+}
+.ft{
+    grid-template-columns: repeat(3,1fr);
+}
+}
