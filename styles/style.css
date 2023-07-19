@@ -253,6 +253,7 @@ footer{
 .pic5{
     display: block;
     width: 200px;
+    padding-left: 60px;
 }
 .img-overlay{
     position: absolute;
