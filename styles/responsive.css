@@ -2,19 +2,23 @@
     nav{
         flex-direction: column;
         height: 400px;
+        width: 600px;
+    }
+    .nav-title{
+        padding-left: 130px;
     }
     .items{
         flex-direction: column;
-
+margin-bottom: 20px;
     }
     .item{
-        padding-right: 30px;
+        padding-left: 130px;
     }
     .banner-container{
         flex-direction: column;
     }
 .pic1{
-    width: 450px;
+    width: 350px;
     padding-left: 0px;
 }
 .main-text{
@@ -33,7 +37,8 @@
 .cards{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    padding-left: 10px;
+    padding-left: 0px;
+    gap: 5px;
 }
 
 
@@ -44,12 +49,14 @@ footer{
 .footer-text{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    padding-left: 100px;
+    padding-left: 10px;
+    gap: 5px;
 }
 .ft{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    padding-left: 100px;
+    padding-left: 10px;
+    gap: 15px;
 }
 .footer-part{
     padding-left: 200px;
