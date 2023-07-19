@@ -52,9 +52,31 @@ bottom: 90px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     padding-left: 0px;
-    gap: 10px;
+    gap: 5px;
 }
-
-
-
+.footer-text{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-left:0px;
+    gap: 5px;
+}
+.ft{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-left: 20px;
+    gap: 5px;
+}
+footer{
+    width: 450px;
+    height: 800px;
+}
+.footer-part{
+    padding-left: 0px;
+}
+.footer-pic{
+    padding-left: 150px;
+}
+.icons{
+    padding-left: 10px;
+}
 }
