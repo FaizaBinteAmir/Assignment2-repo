@@ -92,7 +92,26 @@ background: #4EC5F7;
 .img{
     padding-left: 80px;
 }
+.btn3{
+    background-color: lightgrey;
+    border: none;
+    font-size: 2em;
+    color: red;
+}
+.btn4{
+    background-color: lightgrey;
+    border: none;
+    font-size: 2em;
+    color: black;
+}
 
+
+.button{
+    border: none;
+    border-radius: 10px;
+    background-color: lightgrey;
+    display: flex;
+}
 
 .pic{
     width: 200px;
@@ -160,7 +179,7 @@ background: #FFF;
 .footer-text{
     
     display: flex;
-    padding-top: 100px;
+    padding-top: 40px;
     padding-left: 250px;
     gap: 60px;
     
@@ -177,7 +196,7 @@ footer{
     color: gray;
     margin-top: 20px;
     display: flex;
-    padding-top: 100px;
+    padding-top: 40px;
     padding-left: 250px;
     gap: 60px;
 }
@@ -192,4 +211,37 @@ footer{
 .footer-part{
     display: flex;
     padding-left: 550px;
+}
+.icons{
+    margin-top: 40px;
+    display: flex;
+    gap: 60px;
+    padding-left:400px ;
+}
+.icon-1{
+    font-size: 40px;
+    color: #FFF;
+}
+.icon-2{
+    font-size: 40px;
+    color:white ;
+    background-color: blue;
+    border: none;
+    
+}
+.icon-3{
+    font-size: 40px;
+}
+.icon-4{
+    font-size: 40px;
+}
+.icon-5{
+    font-size: 40px;
+    color: #FFF;
+}
+.pi1{
+    display: flex;
+}
+.p4{
+    padding-bottom: 15px;
 }
