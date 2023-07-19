@@ -88,9 +88,10 @@ background: #4EC5F7;
 .card-container{
     margin-top: 30px;
     display: flex;
+    gap: 50px;
 }
 .img{
-    padding-left: 80px;
+    padding-left: 50px;
 }
 .btn3{
     background-color: lightgrey;
@@ -244,4 +245,38 @@ footer{
 }
 .p4{
     padding-bottom: 15px;
+}
+.img1{
+    position: relative;
+    width: 200px;
+}
+.pic5{
+    display: block;
+    width: 200px;
+}
+.img-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 230px;
+    background: rgba(0, 0, 0, 0.30);
+    color: #FF42A5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+.img-overlay:hover{
+opacity: 1;
+
+}
+.img-title{
+    font-size: 2em;
+    font-weight: bold;
+}
+.img-overlay *{
+    transform: translateY(20px);
 }
